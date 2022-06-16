@@ -1,6 +1,6 @@
 {
-  "name": "date-jp",
-  "version": "1.0.0",
+  "name": "@nekoha/jp-date",
+  "version": "0.0.1",
   "main": "index.js",
   "author": "YOSHIDA NEKOHA",
   "license": "MIT",
