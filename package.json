@@ -8,6 +8,7 @@
     "dev": "nodemon ts-node ./src/index.ts",
     "build": "tsc",
     "test": "jest --collect-coverage",
+    "testo": "jest --only-changed --collect-coverage",
     "testw": "jest --watchAll --collect-coverage"
   },
   "devDependencies": {

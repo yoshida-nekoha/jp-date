@@ -17,10 +17,10 @@ yarn add 'git+https://github.com/yoshida-nekoha/jp-date.git'
 ## 使い方
 
 ```js
-import JST from `jp-date`
+import JST from `@nekoha/jp-date`
 
 // JSTで現在時刻 を取得
-const jst = new JST()
+const jst = JST.create()
 
 // 日付をフォーマットする
 console.log(jst.format('yyyy/mm/dd HH:MM:SS (E)'));

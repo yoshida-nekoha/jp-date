@@ -1,6 +1,6 @@
 import { ReplaceConfig, getPatterns } from './fnc-define'
 
-export abstract class AbstractDate {
+export abstract class DateFormatter {
     date: Date
 
     constructor(date: string | Date = new Date(), offset = 0) {
